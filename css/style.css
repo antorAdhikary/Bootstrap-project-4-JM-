@@ -1,0 +1,129 @@
+.container {
+    margin-bottom: 100px;
+}
+
+/* NAVBAR */
+
+.navbar-nav li {
+    font-size: 20px;
+}
+
+
+
+/* CAROSEL */
+
+
+.carosel-bg{
+    background:#FEEAE9;
+    border-radius: 8px;
+ }
+
+.carousel-inner-description h1 {
+    font-weight: 700;
+}
+.carousel-inner-description p {
+    width: 75%;
+    margin-bottom: 20px;
+}
+.product-price {
+    font-size: 0;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.product-rate {
+    color: rgb(250, 88, 115);
+}
+.carosel-btn {
+    border: 0;
+    padding: 8px 25px;
+    background: rgb(250, 88, 115);
+    border-radius: 5px;
+    margin-top: 20px;
+    opacity: 1;
+}
+.carosel-btn a {
+    color: white;
+    z-index: 16;
+    text-decoration: none;
+    
+}
+.carosel-btn:hover {
+    opacity: 0.7;
+}
+
+/* CATEGORIES */
+
+
+#categories {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+#categories .cat-title{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.cat1 , .cat2 , .cat3 {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+.cat1 img, .cat2 img, .cat3 img {
+    width: 80px;
+}
+.cat1{
+    background:#e7c000;
+}
+.cat2{
+    background: rgb(217, 19, 62);
+}
+.cat3{
+    background: darkmagenta;
+}
+
+
+/* CARDS */
+
+#card {
+    padding: 60px;
+}
+
+#card .see-all {
+    font-size: 20px;
+    color: #e77f00;
+    font-weight: 600;
+}
+.card-btn {
+    border: 0;
+    padding: 8px 25px;
+    background: rgb(29, 28, 28);
+    border-radius: 5px;
+    opacity: 1;
+}
+.card-body a {
+    color: white;
+}
+.card-btn:hover {
+    opacity: 0.8;
+}
+.bags-part {
+    margin-top: 100px;
+}
+
+/* FOOTER */
+
+.footer-width {
+    width: 576px;
+    margin: 0 auto;
+}
+.footer-btn {
+    padding: 8px 25px;
+    background: rgb(247, 1, 136);
+    border-radius: 5px;
+    opacity: 1;
+    color: white;
+    cursor: pointer;
+}
+.footer-btn:hover {
+    opacity: 0.8;
+}
